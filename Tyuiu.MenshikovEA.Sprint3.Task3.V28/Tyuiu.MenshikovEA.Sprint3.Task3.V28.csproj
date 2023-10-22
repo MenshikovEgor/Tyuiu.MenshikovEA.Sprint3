@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6456BB09-96E3-498B-B486-C9B27147B320}</ProjectGuid>
+    <ProjectGuid>{FB8CE57C-20D9-4A35-9067-CDDA8435A0D2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuiu.MenhikovEA.Sprint3.Task1.V13</RootNamespace>
-    <AssemblyName>Tyuiu.MenhikovEA.Sprint3.Task1.V13</AssemblyName>
+    <RootNamespace>Tyuiu.MenshikovEA.Sprint3.Task3.V28</RootNamespace>
+    <AssemblyName>Tyuiu.MenshikovEA.Sprint3.Task3.V28</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.MenhikovEA.Sprint3.Task1.V13.Lib\Tyuiu.MenhikovEA.Sprint3.Task1.V13.Lib.csproj">
-      <Project>{c0868b26-5d49-44af-acaa-ee1022b970b4}</Project>
-      <Name>Tyuiu.MenhikovEA.Sprint3.Task1.V13.Lib</Name>
+    <ProjectReference Include="..\Tyuiu.MenshikovEA.Sprint3.Task3.V28.Lib\Tyuiu.MenshikovEA.Sprint3.Task3.V28.Lib.csproj">
+      <Project>{d0a03a1e-705b-47a4-a9be-fd4f7d4df1c1}</Project>
+      <Name>Tyuiu.MenshikovEA.Sprint3.Task3.V28.Lib</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

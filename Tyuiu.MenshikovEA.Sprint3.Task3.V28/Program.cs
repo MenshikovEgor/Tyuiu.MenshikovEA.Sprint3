@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.MenshikovEA.Sprint3.Task1.V13.Lib;
+using Tyuiu.MenshikovEA.Sprint3.Task3.V28.Lib;
 
-namespace Tyuiu.MenshikovEA.Sprint3.Task1.V13
+namespace Tyuiu.MenshikovEA.Sprint3.Task3.V28
 {
     class Program
     {
@@ -13,22 +13,20 @@ namespace Tyuiu.MenshikovEA.Sprint3.Task1.V13
         {
             DataService ds = new DataService();
 
-            int startvalue = 1;
-            int stopvalue = 7;
-            double value = 1.2;
-
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("k = 1, k <= 7, n = 1.2");
+            Console.WriteLine("f35hyt t4j 3gkg45");
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            double res = ds.GetMultiplySeries(value, startvalue, stopvalue);
 
-            Console.WriteLine("Результат произведения: " + res);
+            char item = 'r';
+            string value = "f35hyt t4j 3gkg45";
+
+            Console.WriteLine(ds.ReplaceNumOnChar(value, item));
             Console.ReadKey();
         }
     }
